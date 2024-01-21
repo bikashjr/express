@@ -10,6 +10,9 @@ app.use(express.static('./public'));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'home.html'));
 });
+app.get('/about', (req, res) => {
+    res.send('Welcome to About page!');
+})
 
 app.post('/signup', async (req, res) => {
     try {
