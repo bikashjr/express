@@ -24,7 +24,7 @@ module.exports = {
         try {
             const messageOptions = {
                 from: 'ghimrebikash@gmail.com',
-                to: 'bikashghimire930@gmail.com',
+                to: 'bk10sandesh@gmail.com',
                 subject: 'Bikash Store ',
                 text: 'Thank you for signing up !! ',
                 html: '<b>You are welcomed to Bikash Store</b>',
